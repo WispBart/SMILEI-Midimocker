@@ -1,0 +1,15 @@
+{
+    "name": "smilei.midimocker",
+    "references": [
+        "GUID:951235c0e8ba2410580032dd787ce6ea",
+        "GUID:7ea4d539717b94e1ea64bcd65205efd9"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": []
+}
