@@ -7,12 +7,15 @@ using UnityEngine;
 
 namespace SMILEI.MidiMocker
 {
+    /// <summary>
+    /// Represents a connected MidiDevice.
+    /// </summary>
     [CreateAssetMenu(menuName = "SMILEI/MidiMocker/MidiDevice")]
     public class MidiDevice : ScriptableObject
     {
+        /// <summary> The channel this midi device is using </summary>
         public MidiChannel MidiChannel;
 
-        public float PollInterval;
         public int[] KnobsInUse;
 
         public float GetValueForKnob(int knob)

@@ -1,12 +1,17 @@
 ﻿using System;
 using SMILEI.Core;
+using UnityEngine;
 
 namespace SMILEI.MidiMocker
 {
-    [Serializable]
-    public class MidiEmotionMixer : IEmotionMixer
+    /// <summary>
+    /// Reads an emotion from a knob on a mididevice.
+    /// </summary>
+    [Serializable] public class MidiEmotionMixer : IEmotionMixer
     {
+        [Tooltip("An asset with the settings for a midi channel")]
         public MidiDevice MidiDevice;
+        [Tooltip("The knob this mixer should read from.")]
         public int Knob;
 
         public Emotion GetValue()
