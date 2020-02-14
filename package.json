@@ -1,11 +1,11 @@
 {
   "name": "nl.ixdfontysict.smilei.midimocker",
   "displayName": "SMILEI Midi Mocker",
-  "version": "0.0.2",
+  "version": "0.1.0",
   "unity": "2018.3",
   "description": "Mocks input for the SMILEI emotion mixer through a midi board.",
   "dependencies": {
-    "nl.ixdfontysict.smilei.core": "0.0.2"
+    "nl.ixdfontysict.smilei.core": "0.1.0"
   },
   "type": "sample"
 }

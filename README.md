@@ -6,10 +6,12 @@ The package can be installed by adding this git repository to the Packages/manif
 
 ```
   "dependencies": {
-    "nl.ixdfontysict.smilei.core" : "https://git.fhict.nl/I875317/smilei-core.git#0.0.2"
-    "nl.ixdfontysict.smilei.midimocker" : "https://git.fhict.nl/I875317/smilei-midimocker.git#0.0.2"
+    "nl.ixdfontysict.smilei.core" : "https://git.fhict.nl/I875317/smilei-core.git#0.1.0"
+    "nl.ixdfontysict.smilei.midimocker" : "https://git.fhict.nl/I875317/smilei-midimocker.git#0.1.0"
   }
 ```
 
 ## Contributions
 This project is being developed by [Fontys IXD](https://www.ixdfontysict.nl/).
+
+Uses MidiJack - MIDI Input Plugin for Unity (Copyright (C) 2013-2016 Keijiro Takahashi) 
